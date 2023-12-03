@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fLisans));
             this.bTamam = new System.Windows.Forms.Button();
             this.tLisansNo = new System.Windows.Forms.TextBox();
             this.lKontrolNo = new System.Windows.Forms.Label();
@@ -95,6 +96,7 @@
             this.Controls.Add(this.tLisansNo);
             this.Controls.Add(this.lKontrolNo);
             this.Controls.Add(this.label6);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "fLisans";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lisans İşlemi";
